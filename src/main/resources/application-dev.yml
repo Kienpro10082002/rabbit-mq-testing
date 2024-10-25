@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: rabbit-mq-testing
+
+server:
+  port: 1234
+
+rabbit-mq-testing:
+  http:
+    version: V_1_1
+  cors:
+    allowed-origins: "*"
+    allowed-methods: "*"
+    allowed-headers: "*"
+    allowed-credentials: true
+    max-age: 1800
+  rabbit-mq:
+    project-name: rabbit-mq-testing
+    project-owner: trungkiendoan
